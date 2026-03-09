@@ -16,4 +16,4 @@ spring:
         dialect: org.hibernate.dialect.H2Dialect
 
 simulator:
-  base-url: http://localhost:9000
+  base-url: http://localhost:3000

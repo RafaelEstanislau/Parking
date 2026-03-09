@@ -17,4 +17,4 @@ spring:
         format_sql: true
 
 simulator:
-  base-url: http://localhost:9000
+  base-url: http://localhost:3000

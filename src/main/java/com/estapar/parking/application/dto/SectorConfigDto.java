@@ -6,6 +6,6 @@ import java.math.BigDecimal;
 
 public record SectorConfigDto(
         String sector,
-        BigDecimal basePrice,
+        @JsonProperty("base_price") BigDecimal basePrice,
         @JsonProperty("max_capacity") int maxCapacity
 ) {}
